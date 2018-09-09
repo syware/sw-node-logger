@@ -20,7 +20,7 @@ logger.Log('This is info')
 
 ### How to log
 
-When the logger is instantiated, you simply need to call the Log method. By default the log type is INFO but you can either change the default log type or specify it for a specific log
+When the logger is instantiated, you simply need to call the Log method. This will Log on all defined Drivers. By default the log type is INFO but you can either change the default log type or specify it for a specific log
 
 ```
 // Default log type is INFO
@@ -107,7 +107,7 @@ let logger = new Logger(drv)
 The minimum required is to use a constructor with options and a Log method which get message and type
 
 ```
-let Logger = require('./index')
+let Logger = require('sw-node-logger')
 
 class MyDriver extends Logger.LoggerDriverInterface {
   constructor (options) {
