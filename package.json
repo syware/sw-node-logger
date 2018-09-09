@@ -1,0 +1,14 @@
+{
+  "name": "sw-node-logger",
+  "version": "1.0.0",
+  "description": "An easy and modulable logger for nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lb@syware.ch",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "syslog-client": "^1.1.1"
+  }
+}
