@@ -7,6 +7,13 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "lb@syware.ch",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/syware/sw-node-logger"
+  },
+  "bugs": {
+    "url": "https://github.com/syware/sw-node-logger/issues"
+  },
   "license": "Apache-2.0",
   "dependencies": {
     "syslog-client": "^1.1.1"
