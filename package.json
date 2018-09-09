@@ -14,6 +14,14 @@
   "bugs": {
     "url": "https://github.com/syware/sw-node-logger/issues"
   },
+  "keywords": [
+    "logger",
+    "node",
+    "console",
+    "file",
+    "syslog",
+    "customizable"
+  ],
   "license": "Apache-2.0",
   "dependencies": {
     "syslog-client": "^1.1.1"
