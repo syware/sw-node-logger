@@ -1,6 +1,6 @@
 {
   "name": "sw-node-logger",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "An easy and modulable logger for nodejs",
   "main": "index.js",
   "scripts": {
